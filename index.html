@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flag{
+            background-color: orange;
+            height: 220px;
+            width: 500px;
+            position:relative ;
+        }
+        .flag > div{
+            background-color: white;
+            height: 80px;
+            width: 500px;
+            position: absolute;
+            bottom: 70px;
+        }
+
+        .flag> div > div{
+            background-color: green;
+            height: 80px;
+            width: 500px;
+            top: 50px;
+            position: relative;
+        }
+
+        p{
+            font-size: 1.5rem;
+            text-align: center;
+            color: white;
+        }
+
+        .flag > div > div p{
+            color: black;
+        }
+    </style>
+</head>
+
+    <div class="flag">
+        <p>the flag</p>
+        <div>
+            <div>
+        <p>of india</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
